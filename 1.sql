@@ -1,2 +1,4 @@
 -- 1.sql'de, 2008 yılında vizyona giren tüm filmlerin isimlerini (title) listeleyen bir SQL sorgusu yazın.
 -- Sorgunuz, her film için tek bir sütun içeren bir tablo döndürmelidir.
+
+SELECT title FROM movies WHERE year = 2008;
